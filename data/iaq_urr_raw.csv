@@ -1,0 +1,645 @@
+# visual 07d1c967-0c7c-42fe-8b8c-08e18b06e716
+e55f204f-d296-44f8-ad36-54e6fd686eee
+0.06976744186046512
+
+# visual 6c758083-29e3-4355-ac73-a9be50e8ffd6
+group_0,4b4fd004-0195-471d-835a-6c960b484a5d,a8f0be8a-cf99-4b30-b672-fe30a1be8709,b106c6ad-cd11-4bca-b30a-c83dd4f8d413,e55f204f-d296-44f8-ad36-54e6fd686eee
+2026-07-01 00:00:00.000,0.097,322,16,0.049689440993788817
+2026-06-01 00:00:00.000,0.0959,250,10,0.04
+2026-05-01 00:00:00.000,0.1071,220,8,0.03636363636363636
+2026-04-01 00:00:00.000,0.0975,232,14,0.0603448275862069
+2026-03-01 00:00:00.000,0.0945,176,8,0.045454545454545456
+2026-02-01 00:00:00.000,0.0926,103,4,0.03883495145631067
+2026-01-01 00:00:00.000,0.0863,142,5,0.035211267605633804
+2025-12-01 00:00:00.000,0.0871,159,7,0.0440251572327044
+2025-11-01 00:00:00.000,0.0809,101,5,0.04950495049504951
+2025-10-01 00:00:00.000,0.0885,125,10,0.08
+2025-09-01 00:00:00.000,0.1112,118,12,0.1016949152542373
+2025-08-01 00:00:00.000,0.1049,127,5,0.03937007874015748
+2025-07-01 00:00:00.000,0.1076,148,8,0.05405405405405406
+
+# visual a37f66e3-96ff-4a9e-85ba-567ff71f3b0a
+a8f0be8a-cf99-4b30-b672-fe30a1be8709
+215
+
+# visual c80d521d-1f7f-4c79-b073-cb99a3d33abc
+group_0,group_1,a8f0be8a-cf99-4b30-b672-fe30a1be8709,b106c6ad-cd11-4bca-b30a-c83dd4f8d413,e55f204f-d296-44f8-ad36-54e6fd686eee
+CA,Alberta,45,7,0.15555555555555556
+CA,British Columbia,19,2,0.10526315789473684
+CA,Ontario,151,6,0.039735099337748346
+
+# visual 69a5a32e-0757-4996-999e-e020b14cec76
+a5aaa72c-4f46-4c18-a25e-8d9a4622290c
+0.698051948051948
+
+# visual b046daab-822b-4455-b7af-10c9123bb0e9
+group_0,854c59b4-34ea-40c6-91ed-955a04eb71a6,a8f0be8a-cf99-4b30-b672-fe30a1be8709
+181+ days,0.5581395348837209,120
+46-180 days,0.32558139534883723,70
+1-15 days,0.06046511627906977,13
+16-45 days,0.05581395348837209,12
+
+# visual 57098843-9c6d-4d3e-82bc-b9e0dbd094cf
+group_0,group_1,8aa07f60-55b3-427f-9ace-43ed95d5cd3d,response_text
+2026-07-01 00:00:00.000,Communication,0.125,1
+2026-07-01 00:00:00.000,Delivery App,0.125,1
+2026-07-01 00:00:00.000,Delivery Station,0.25,2
+2026-07-01 00:00:00.000,Other,0.5,4
+2026-06-01 00:00:00.000,Communication,0.4,2
+2026-06-01 00:00:00.000,Delivery App,0.4,1
+2026-06-01 00:00:00.000,Other,0.2,1
+2026-05-01 00:00:00.000,Delivery App,0.5,2
+2026-05-01 00:00:00.000,Other,0.25,1
+2026-05-01 00:00:00.000,Safety,0.25,1
+2026-04-01 00:00:00.000,Delivery App,0.42857142857142855,3
+2026-04-01 00:00:00.000,Delivery Station,0.14285714285714285,1
+2026-04-01 00:00:00.000,Other,0.14285714285714285,1
+2026-04-01 00:00:00.000,Safety,0.2857142857142857,2
+2026-03-01 00:00:00.000,I'd rather not answer,0.25,1
+2026-03-01 00:00:00.000,Other,0.25,1
+2026-03-01 00:00:00.000,Safety,0.25,1
+2026-03-01 00:00:00.000,Vehicle/Delivery Equipment,0.25,1
+2026-02-01 00:00:00.000,Other,0.25,1
+2026-02-01 00:00:00.000,Safety,0.75,3
+2026-01-01 00:00:00.000,Delivery App,0.4,2
+2026-01-01 00:00:00.000,Other,0.4,2
+2026-01-01 00:00:00.000,Vehicle/Delivery Equipment,0.2,1
+2025-12-01 00:00:00.000,DSP Manager,0.14285714285714285,1
+2025-12-01 00:00:00.000,I'd rather not answer,0.14285714285714285,1
+2025-12-01 00:00:00.000,Other,0.14285714285714285,1
+2025-12-01 00:00:00.000,Routing,0.14285714285714285,1
+2025-12-01 00:00:00.000,Workload,0.42857142857142855,3
+2025-11-01 00:00:00.000,I'd rather not answer,0.2,1
+2025-11-01 00:00:00.000,Other,0.2,1
+2025-11-01 00:00:00.000,Routing,0.2,1
+2025-11-01 00:00:00.000,Workload,0.4,2
+2025-10-01 00:00:00.000,DSP Manager,0.2,2
+2025-10-01 00:00:00.000,Other,0.1,1
+2025-10-01 00:00:00.000,Routing,0.3,3
+2025-10-01 00:00:00.000,Workload,0.4,4
+2025-09-01 00:00:00.000,DSP Manager,0.25,3
+2025-09-01 00:00:00.000,Other,0.08333333333333333,1
+2025-09-01 00:00:00.000,Routing,0.25,2
+2025-09-01 00:00:00.000,Workload,0.4166666666666667,5
+2025-08-01 00:00:00.000,DSP Manager,0.2,1
+2025-08-01 00:00:00.000,Other,0.2,1
+2025-08-01 00:00:00.000,Routing,0.2,1
+2025-08-01 00:00:00.000,Workload,0.4,2
+2025-07-01 00:00:00.000,DSP Manager,0.25,2
+2025-07-01 00:00:00.000,Other,0.125,1
+2025-07-01 00:00:00.000,Routing,0.125,1
+2025-07-01 00:00:00.000,Workload,0.5,4
+
+# visual 1002bb4e-7591-4351-9801-94e3830aab63
+group_0,response_text,13a68d56-6e3a-4983-9bf3-6f0bc1815f8e
+Workload,4,0.42857142857142855
+Routing,4,0.2857142857142857
+DSP Manager,4,0.14285714285714285
+Other,4,0.14285714285714285
+,,
+
+# visual b6276144-72e3-453f-8516-13b97fc2da34
+group_0,a5aaa72c-4f46-4c18-a25e-8d9a4622290c
+2026-07-01 00:00:00.000,0.6822033898305084
+2026-06-01 00:00:00.000,0.7062146892655368
+2026-05-01 00:00:00.000,0.6875
+2026-04-01 00:00:00.000,0.7160493827160495
+2026-03-01 00:00:00.000,0.6875
+2026-02-01 00:00:00.000,0.7054794520547945
+2026-01-01 00:00:00.000,0.6396396396396397
+2025-12-01 00:00:00.000,0.676595744680851
+2025-11-01 00:00:00.000,0.6644736842105263
+2025-10-01 00:00:00.000,0.7183908045977012
+2025-09-01 00:00:00.000,0.7023809523809523
+2025-08-01 00:00:00.000,0.7016574585635359
+2025-07-01 00:00:00.000,0.7219512195121951
+
+# visual 953a5518-6b8d-438e-99e5-009183fac39c
+group_0,group_1,a8f0be8a-cf99-4b30-b672-fe30a1be8709,b106c6ad-cd11-4bca-b30a-c83dd4f8d413,e55f204f-d296-44f8-ad36-54e6fd686eee
+2026-07-01 00:00:00.000,1-15 days,34,2,0.058823529411764705
+2026-07-01 00:00:00.000,16-45 days,16,0,0
+2026-07-01 00:00:00.000,181+ days,186,12,0.06451612903225806
+2026-07-01 00:00:00.000,46-180 days,86,2,0.023255813953488372
+2026-06-01 00:00:00.000,1-15 days,12,0,0
+2026-06-01 00:00:00.000,16-45 days,16,0,0
+2026-06-01 00:00:00.000,181+ days,152,10,0.06578947368421052
+2026-06-01 00:00:00.000,46-180 days,70,0,0
+2026-05-01 00:00:00.000,1-15 days,12,0,0
+2026-05-01 00:00:00.000,16-45 days,12,0,0
+2026-05-01 00:00:00.000,181+ days,126,8,0.06349206349206349
+2026-05-01 00:00:00.000,46-180 days,70,0,0
+2026-04-01 00:00:00.000,1-15 days,22,0,0
+2026-04-01 00:00:00.000,16-45 days,6,0,0
+2026-04-01 00:00:00.000,181+ days,134,12,0.08955223880597014
+2026-04-01 00:00:00.000,46-180 days,70,2,0.02857142857142857
+2026-03-01 00:00:00.000,1-15 days,2,0,0
+2026-03-01 00:00:00.000,16-45 days,6,0,0
+2026-03-01 00:00:00.000,181+ days,122,8,0.06557377049180328
+2026-03-01 00:00:00.000,46-180 days,46,0,0
+2026-02-01 00:00:00.000,1-15 days,1,0,0
+2026-02-01 00:00:00.000,16-45 days,6,0,0
+2026-02-01 00:00:00.000,181+ days,61,4,0.06557377049180328
+2026-02-01 00:00:00.000,46-180 days,35,0,0
+2026-01-01 00:00:00.000,1-15 days,6,0,0
+2026-01-01 00:00:00.000,16-45 days,16,1,0.0625
+2026-01-01 00:00:00.000,181+ days,70,3,0.04285714285714286
+2026-01-01 00:00:00.000,46-180 days,50,1,0.02
+2025-12-01 00:00:00.000,1-15 days,18,0,0
+2025-12-01 00:00:00.000,16-45 days,10,0,0
+2025-12-01 00:00:00.000,181+ days,80,6,0.075
+2025-12-01 00:00:00.000,46-180 days,51,1,0.0196078431372549
+2025-11-01 00:00:00.000,1-15 days,8,0,0
+2025-11-01 00:00:00.000,16-45 days,2,0,0
+2025-11-01 00:00:00.000,181+ days,56,4,0.07142857142857142
+2025-11-01 00:00:00.000,46-180 days,35,1,0.02857142857142857
+2025-10-01 00:00:00.000,1-15 days,8,1,0.125
+2025-10-01 00:00:00.000,16-45 days,10,1,0.1
+2025-10-01 00:00:00.000,181+ days,68,6,0.08823529411764706
+2025-10-01 00:00:00.000,46-180 days,39,2,0.05128205128205128
+2025-09-01 00:00:00.000,1-15 days,7,1,0.14285714285714285
+2025-09-01 00:00:00.000,16-45 days,9,1,0.1111111111111111
+2025-09-01 00:00:00.000,181+ days,63,6,0.09523809523809525
+2025-09-01 00:00:00.000,46-180 days,39,4,0.10256410256410256
+2025-08-01 00:00:00.000,1-15 days,12,1,0.08333333333333333
+2025-08-01 00:00:00.000,16-45 days,4,0,0
+2025-08-01 00:00:00.000,181+ days,62,4,0.06451612903225806
+2025-08-01 00:00:00.000,46-180 days,49,0,0
+2025-07-01 00:00:00.000,1-15 days,17,0,0
+2025-07-01 00:00:00.000,16-45 days,14,1,0.07142857142857142
+2025-07-01 00:00:00.000,181+ days,62,4,0.06451612903225806
+2025-07-01 00:00:00.000,46-180 days,55,3,0.05454545454545454
+
+# visual a27f5bfd-8454-4f98-9a1c-89092ee300ea
+group_0,group_1,station_code,a8f0be8a-cf99-4b30-b672-fe30a1be8709,b106c6ad-cd11-4bca-b30a-c83dd4f8d413,e55f204f-d296-44f8-ad36-54e6fd686eee
+DFST,HYC2,9,25,3,0.12
+ANDR,HYE1,9,20,4,0.2
+PTCI,HYO1,9,17,0,0
+RURN,HYO1,9,15,0,0
+VAVA,HYV1,9,19,2,0.10526315789473684
+FLIT,HYZ1,9,16,0,0
+MYCU,HYZ1,9,26,0,0
+112C,HYZ2,9,40,2,0.05
+MRLS,HYZ2,9,37,4,0.10810810810810811
+
+# visual d997acb0-0d28-466b-a819-2e939030242d
+group_0,msa,a8f0be8a-cf99-4b30-b672-fe30a1be8709,b106c6ad-cd11-4bca-b30a-c83dd4f8d413,e55f204f-d296-44f8-ad36-54e6fd686eee
+"Calgary, AB, CA",5,25,3,0.12
+"Edmonton, AB, CA",5,20,4,0.2
+"Ottawa, ON, CA",5,32,0,0
+"Toronto, ON, CA",5,119,6,0.05042016806722689
+"Vancouver, BC, CA",5,19,2,0.10526315789473684
+
+# visual ebee2120-1897-4dd3-9d57-20613106e8ce
+group_0,station_code,a8f0be8a-cf99-4b30-b672-fe30a1be8709,b106c6ad-cd11-4bca-b30a-c83dd4f8d413,e55f204f-d296-44f8-ad36-54e6fd686eee
+HYC2,6,25,3,0.12
+HYE1,6,20,4,0.2
+HYO1,6,32,0,0
+HYV1,6,19,2,0.10526315789473684
+HYZ1,6,42,0,0
+HYZ2,6,77,6,0.07792207792207792
+
+# visual 00d909fc-6b20-4ac9-90f2-83606c401b3e
+group_0,group_1,group_2,group_3,group_4,00a4f6df-dd0e-418d-bf8a-f0e09dcbcc62,a8f0be8a-cf99-4b30-b672-fe30a1be8709,b106c6ad-cd11-4bca-b30a-c83dd4f8d413,e55f204f-d296-44f8-ad36-54e6fd686eee
+HYC2,DFST,Amazon Communications,Amazon uses effective ways to communicate information with me.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Amazon Communications,Does the communication provided by Amazon help support you as a DA?,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Amazon Delivery App,The delivery app is simple to use.,2025-11-01 00:00:00.000,,0,0,
+HYC2,DFST,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-11-01 00:00:00.000,,11,1,0.09090909090909093
+HYC2,DFST,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-10-01 00:00:00.000,,14,2,0.14285714285714285
+HYC2,DFST,Communication,I can easily reach out to my DSP when needed.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Communication,My DSP communicates clear expectations for my role.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Delivery Execution,The steps required in the app to complete package deliveries and pickups are easy to follow.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-11-01 00:00:00.000,,0,0,
+HYC2,DFST,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-11-01 00:00:00.000,,0,0,
+HYC2,DFST,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Effort & Efficiency,"Overall, the mental effort required to do my job today is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Engagement & Motivation,"How satisfied are you with the DSP DA recognition programs (Frontrunner, Milestones, etc)?",2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Engagement & Motivation,I feel valued as a DSP DA.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Engagement & Motivation,I feel valued as a member of my DSP team.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Engagement & Motivation,My DSP regularly recognizes the hard work their drivers do to meet customer expectations.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Fleet,"Overall, how comfortable are delivery vehicles to work in?",2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Hands-on Support,My DSP leadership provides useful information to help drivers succeed.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Hands-on Support,My DSP provides practical solutions when I face challenges in my work.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Navigation & Route Design,How satisfied are you with the turn-by-turn navigation experience in the delivery app?,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Navigation & Route Design,The routes I work are easy to navigate.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,SDS,"In the last month, communicating with a Driver Support associate was easy.",2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,SDS,"In the last month, how satisfied are you with contacting Driver Support?",2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Safety,I believe my safety as a DSP DA is prioritized.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Safety,I feel safe dropping off packages at the delivery location.,2025-10-01 00:00:00.000,,0,0,
+HYC2,DFST,Safety,I have everything I need to make deliveries safely.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Amazon Communications,Amazon uses effective ways to communicate information with me.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Amazon Communications,Does the communication provided by Amazon help support you as a DA?,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Amazon Delivery App,The delivery app is simple to use.,2025-11-01 00:00:00.000,,0,0,
+HYE1,ANDR,Amazon Delivery App,The delivery app is simple to use.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-11-01 00:00:00.000,,9,2,0.2222222222222222
+HYE1,ANDR,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-10-01 00:00:00.000,,11,2,0.18181818181818185
+HYE1,ANDR,Communication,I can easily reach out to my DSP when needed.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Communication,My DSP communicates clear expectations for my role.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Delivery Execution,The steps required in the app to complete package deliveries and pickups are easy to follow.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-11-01 00:00:00.000,,0,0,
+HYE1,ANDR,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-11-01 00:00:00.000,,0,0,
+HYE1,ANDR,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-11-01 00:00:00.000,,0,0,
+HYE1,ANDR,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Effort & Efficiency,"Overall, the mental effort required to do my job today is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Engagement & Motivation,"How satisfied are you with the DSP DA recognition programs (Frontrunner, Milestones, etc)?",2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Engagement & Motivation,I feel valued as a DSP DA.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Engagement & Motivation,I feel valued as a member of my DSP team.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Engagement & Motivation,My DSP regularly recognizes the hard work their drivers do to meet customer expectations.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Fleet,"Overall, how comfortable are delivery vehicles to work in?",2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Hands-on Support,My DSP leadership provides useful information to help drivers succeed.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Hands-on Support,My DSP provides practical solutions when I face challenges in my work.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Navigation & Route Design,How satisfied are you with the turn-by-turn navigation experience in the delivery app?,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Navigation & Route Design,The routes I work are easy to navigate.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,New Driver,How useful was the overall training experience?,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,New Driver,"Overall, how does the delivery experience compare to your expectations?",2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,New Driver,"Overall, how satisfied are you with the support you received from your DSP during on-road training?",2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,New Driver,The Nursery Routes helped me gain confidence as a Delivery Associate.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,New Driver,The classroom/online training adequately prepared me to deliver packages successfully.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,New Driver,The ride along training adequately prepared me to deliver successfully.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,SDS,"In the last month, communicating with a Driver Support associate was easy.",2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,SDS,"In the last month, how satisfied are you with contacting Driver Support?",2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Safety,I believe my safety as a DSP DA is prioritized.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Safety,I feel safe dropping off packages at the delivery location.,2025-10-01 00:00:00.000,,0,0,
+HYE1,ANDR,Safety,I have everything I need to make deliveries safely.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Amazon Communications,Amazon uses effective ways to communicate information with me.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Amazon Communications,Does the communication provided by Amazon help support you as a DA?,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-11-01 00:00:00.000,,9,0,0
+HYO1,PTCI,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-10-01 00:00:00.000,,8,0,0
+HYO1,PTCI,Communication,I can easily reach out to my DSP when needed.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Communication,My DSP communicates clear expectations for my role.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Delivery Execution,The steps required in the app to complete package deliveries and pickups are easy to follow.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-11-01 00:00:00.000,,0,0,
+HYO1,PTCI,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-11-01 00:00:00.000,,0,0,
+HYO1,PTCI,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Effort & Efficiency,"Overall, the mental effort required to do my job today is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Engagement & Motivation,"How satisfied are you with the DSP DA recognition programs (Frontrunner, Milestones, etc)?",2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Engagement & Motivation,I feel valued as a DSP DA.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Engagement & Motivation,My DSP regularly recognizes the hard work their drivers do to meet customer expectations.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Fleet,"Overall, how comfortable are delivery vehicles to work in?",2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Hands-on Support,My DSP leadership provides useful information to help drivers succeed.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Hands-on Support,My DSP provides practical solutions when I face challenges in my work.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Navigation & Route Design,How satisfied are you with the turn-by-turn navigation experience in the delivery app?,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Navigation & Route Design,The routes I work are easy to navigate.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,SDS,"In the last month, communicating with a Driver Support associate was easy.",2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,SDS,"In the last month, how satisfied are you with contacting Driver Support?",2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Safety,I believe my safety as a DSP DA is prioritized.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Safety,I feel safe dropping off packages at the delivery location.,2025-10-01 00:00:00.000,,0,0,
+HYO1,PTCI,Safety,I have everything I need to make deliveries safely.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Amazon Communications,Amazon uses effective ways to communicate information with me.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Amazon Communications,Does the communication provided by Amazon help support you as a DA?,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Amazon Delivery App,The delivery app is simple to use.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-11-01 00:00:00.000,,7,0,0
+HYO1,RURN,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-10-01 00:00:00.000,,8,0,0
+HYO1,RURN,Communication,I can easily reach out to my DSP when needed.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Communication,My DSP communicates clear expectations for my role.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Delivery Execution,The steps required in the app to complete package deliveries and pickups are easy to follow.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-11-01 00:00:00.000,,0,0,
+HYO1,RURN,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-11-01 00:00:00.000,,0,0,
+HYO1,RURN,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Effort & Efficiency,"Overall, the mental effort required to do my job today is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Engagement & Motivation,"How satisfied are you with the DSP DA recognition programs (Frontrunner, Milestones, etc)?",2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Engagement & Motivation,I feel valued as a DSP DA.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Engagement & Motivation,I feel valued as a member of my DSP team.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Engagement & Motivation,My DSP regularly recognizes the hard work their drivers do to meet customer expectations.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Fleet,"Overall, how comfortable are delivery vehicles to work in?",2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Hands-on Support,My DSP leadership provides useful information to help drivers succeed.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Hands-on Support,My DSP provides practical solutions when I face challenges in my work.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Navigation & Route Design,How satisfied are you with the turn-by-turn navigation experience in the delivery app?,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Navigation & Route Design,The routes I work are easy to navigate.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,SDS,"In the last month, communicating with a Driver Support associate was easy.",2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,SDS,"In the last month, how satisfied are you with contacting Driver Support?",2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Safety,I believe my safety as a DSP DA is prioritized.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Safety,I feel safe dropping off packages at the delivery location.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Safety,I have everything I need to make deliveries safely.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Amazon Communications,Amazon uses effective ways to communicate information with me.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Amazon Communications,Does the communication provided by Amazon help support you as a DA?,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-11-01 00:00:00.000,,7,1,0.14285714285714285
+HYV1,VAVA,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-10-01 00:00:00.000,,12,1,0.08333333333333333
+HYV1,VAVA,Communication,I can easily reach out to my DSP when needed.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Communication,My DSP communicates clear expectations for my role.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-11-01 00:00:00.000,,0,0,
+HYV1,VAVA,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Effort & Efficiency,"Overall, the mental effort required to do my job today is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Engagement & Motivation,"How satisfied are you with the DSP DA recognition programs (Frontrunner, Milestones, etc)?",2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Engagement & Motivation,I feel valued as a DSP DA.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Engagement & Motivation,I feel valued as a member of my DSP team.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Engagement & Motivation,My DSP regularly recognizes the hard work their drivers do to meet customer expectations.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Fleet,"Overall, how comfortable are delivery vehicles to work in?",2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Hands-on Support,My DSP leadership provides useful information to help drivers succeed.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Hands-on Support,My DSP provides practical solutions when I face challenges in my work.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Navigation & Route Design,How satisfied are you with the turn-by-turn navigation experience in the delivery app?,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Navigation & Route Design,The routes I work are easy to navigate.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,SDS,"In the last month, communicating with a Driver Support associate was easy.",2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,SDS,"In the last month, how satisfied are you with contacting Driver Support?",2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Safety,I believe my safety as a DSP DA is prioritized.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Safety,I feel safe dropping off packages at the delivery location.,2025-10-01 00:00:00.000,,0,0,
+HYV1,VAVA,Safety,I have everything I need to make deliveries safely.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Amazon Communications,Amazon uses effective ways to communicate information with me.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Amazon Communications,Does the communication provided by Amazon help support you as a DA?,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Amazon Delivery App,The delivery app is simple to use.,2025-11-01 00:00:00.000,,0,0,
+HYZ1,FLIT,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-11-01 00:00:00.000,,6,0,0
+HYZ1,FLIT,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-10-01 00:00:00.000,,10,0,0
+HYZ1,FLIT,Communication,I can easily reach out to my DSP when needed.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Communication,My DSP communicates clear expectations for my role.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Delivery Execution,The steps required in the app to complete package deliveries and pickups are easy to follow.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-11-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-11-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Effort & Efficiency,"Overall, the mental effort required to do my job today is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Engagement & Motivation,"How satisfied are you with the DSP DA recognition programs (Frontrunner, Milestones, etc)?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Engagement & Motivation,I feel valued as a DSP DA.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Engagement & Motivation,I feel valued as a member of my DSP team.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Engagement & Motivation,My DSP regularly recognizes the hard work their drivers do to meet customer expectations.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Fleet,"Overall, how comfortable are delivery vehicles to work in?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Hands-on Support,My DSP leadership provides useful information to help drivers succeed.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Hands-on Support,My DSP provides practical solutions when I face challenges in my work.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Navigation & Route Design,How satisfied are you with the turn-by-turn navigation experience in the delivery app?,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Navigation & Route Design,The routes I work are easy to navigate.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,New Driver,"Overall, how does the delivery experience compare to your expectations?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,SDS,"In the last month, communicating with a Driver Support associate was easy.",2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,SDS,"In the last month, how satisfied are you with contacting Driver Support?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Safety,I believe my safety as a DSP DA is prioritized.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Safety,I feel safe dropping off packages at the delivery location.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,FLIT,Safety,I have everything I need to make deliveries safely.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Amazon Communications,Amazon uses effective ways to communicate information with me.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Amazon Communications,Does the communication provided by Amazon help support you as a DA?,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Amazon Delivery App,The delivery app is simple to use.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-11-01 00:00:00.000,,10,0,0
+HYZ1,MYCU,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-10-01 00:00:00.000,,16,0,0
+HYZ1,MYCU,Communication,I can easily reach out to my DSP when needed.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Communication,My DSP communicates clear expectations for my role.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Delivery Execution,The steps required in the app to complete package deliveries and pickups are easy to follow.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-11-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-11-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Effort & Efficiency,"Overall, the mental effort required to do my job today is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Engagement & Motivation,"How satisfied are you with the DSP DA recognition programs (Frontrunner, Milestones, etc)?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Engagement & Motivation,I feel valued as a DSP DA.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Engagement & Motivation,I feel valued as a member of my DSP team.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Engagement & Motivation,My DSP regularly recognizes the hard work their drivers do to meet customer expectations.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Fleet,"Overall, how comfortable are delivery vehicles to work in?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Hands-on Support,My DSP leadership provides useful information to help drivers succeed.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Hands-on Support,My DSP provides practical solutions when I face challenges in my work.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Navigation & Route Design,How satisfied are you with the turn-by-turn navigation experience in the delivery app?,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Navigation & Route Design,The routes I work are easy to navigate.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,New Driver,"Overall, how does the delivery experience compare to your expectations?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,New Driver,"Overall, how satisfied are you with the support you received from your DSP during on-road training?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,New Driver,The Nursery Routes helped me gain confidence as a Delivery Associate.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,New Driver,The classroom/online training adequately prepared me to deliver packages successfully.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,New Driver,The ride along training adequately prepared me to deliver successfully.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,SDS,"In the last month, communicating with a Driver Support associate was easy.",2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,SDS,"In the last month, how satisfied are you with contacting Driver Support?",2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Safety,I believe my safety as a DSP DA is prioritized.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Safety,I feel safe dropping off packages at the delivery location.,2025-10-01 00:00:00.000,,0,0,
+HYZ1,MYCU,Safety,I have everything I need to make deliveries safely.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Amazon Communications,Amazon uses effective ways to communicate information with me.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Amazon Communications,Does the communication provided by Amazon help support you as a DA?,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Amazon Delivery App,The delivery app is simple to use.,2025-11-01 00:00:00.000,,0,0,
+HYZ2,112C,Amazon Delivery App,The delivery app is simple to use.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-11-01 00:00:00.000,,15,1,0.06666666666666667
+HYZ2,112C,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-10-01 00:00:00.000,,25,1,0.04
+HYZ2,112C,Communication,I can easily reach out to my DSP when needed.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Communication,My DSP communicates clear expectations for my role.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Delivery Execution,The steps required in the app to complete package deliveries and pickups are easy to follow.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-11-01 00:00:00.000,,0,0,
+HYZ2,112C,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-11-01 00:00:00.000,,0,0,
+HYZ2,112C,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-11-01 00:00:00.000,,0,0,
+HYZ2,112C,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Effort & Efficiency,"Overall, the mental effort required to do my job today is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Engagement & Motivation,"How satisfied are you with the DSP DA recognition programs (Frontrunner, Milestones, etc)?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Engagement & Motivation,I feel valued as a DSP DA.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Engagement & Motivation,I feel valued as a member of my DSP team.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Engagement & Motivation,My DSP regularly recognizes the hard work their drivers do to meet customer expectations.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Fleet,"Overall, how comfortable are delivery vehicles to work in?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Hands-on Support,My DSP leadership provides useful information to help drivers succeed.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Hands-on Support,My DSP provides practical solutions when I face challenges in my work.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Navigation & Route Design,How satisfied are you with the turn-by-turn navigation experience in the delivery app?,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Navigation & Route Design,The routes I work are easy to navigate.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,New Driver,How useful was the overall training experience?,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,New Driver,"Overall, how does the delivery experience compare to your expectations?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,New Driver,"Overall, how satisfied are you with the support you received from your DSP during on-road training?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,New Driver,The Nursery Routes helped me gain confidence as a Delivery Associate.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,New Driver,The classroom/online training adequately prepared me to deliver packages successfully.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,New Driver,The ride along training adequately prepared me to deliver successfully.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,SDS,"In the last month, communicating with a Driver Support associate was easy.",2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,SDS,"In the last month, how satisfied are you with contacting Driver Support?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Safety,I believe my safety as a DSP DA is prioritized.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Safety,I feel safe dropping off packages at the delivery location.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,112C,Safety,I have everything I need to make deliveries safely.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Amazon Communications,Amazon uses effective ways to communicate information with me.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Amazon Communications,Does the communication provided by Amazon help support you as a DA?,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Amazon Delivery App,The delivery app is simple to use.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-11-01 00:00:00.000,,16,0,0
+HYZ2,MRLS,CSAT,"Overall, how satisfied are you with being a Delivery Associate right now?",2025-10-01 00:00:00.000,,21,4,0.1904761904761905
+HYZ2,MRLS,Communication,I can easily reach out to my DSP when needed.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Communication,My DSP communicates clear expectations for my role.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Delivery Execution,The steps required in the app to complete package deliveries and pickups are easy to follow.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-11-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Delivery Station,Amazon employees at the delivery station are helpful when I have a problem?,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-11-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Delivery Station,"Overall, how satisfied are you with your Delivery Station experience?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-11-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Effort & Efficiency,"Overall, I feel the work required to do my job is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Effort & Efficiency,"Overall, the mental effort required to do my job today is manageable.",2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Engagement & Motivation,"How satisfied are you with the DSP DA recognition programs (Frontrunner, Milestones, etc)?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Engagement & Motivation,I feel valued as a DSP DA.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Engagement & Motivation,I feel valued as a member of my DSP team.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Engagement & Motivation,My DSP regularly recognizes the hard work their drivers do to meet customer expectations.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Fleet,"Overall, how comfortable are delivery vehicles to work in?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Hands-on Support,My DSP leadership provides useful information to help drivers succeed.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Hands-on Support,My DSP provides practical solutions when I face challenges in my work.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Navigation & Route Design,How satisfied are you with the turn-by-turn navigation experience in the delivery app?,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Navigation & Route Design,The routes I work are easy to navigate.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,New Driver,How useful was the overall training experience?,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,New Driver,"Overall, how does the delivery experience compare to your expectations?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,New Driver,"Overall, how satisfied are you with the support you received from your DSP during on-road training?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,New Driver,The Nursery Routes helped me gain confidence as a Delivery Associate.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,New Driver,The classroom/online training adequately prepared me to deliver packages successfully.,2025-11-01 00:00:00.000,,0,0,
+HYZ2,MRLS,New Driver,The classroom/online training adequately prepared me to deliver packages successfully.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,New Driver,The ride along training adequately prepared me to deliver successfully.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,SDS,"In the last month, communicating with a Driver Support associate was easy.",2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,SDS,"In the last month, how satisfied are you with contacting Driver Support?",2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Safety,I believe my safety as a DSP DA is prioritized.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Safety,I feel safe dropping off packages at the delivery location.,2025-10-01 00:00:00.000,,0,0,
+HYZ2,MRLS,Safety,I have everything I need to make deliveries safely.,2025-10-01 00:00:00.000,,0,0,
+HYO1,RURN,Delivery Station,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Engagement & Motivation,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Hands-on Support,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,Engagement & Motivation,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,Amazon Delivery App,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,New Driver,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,CSAT,,2025-11-01 00:00:00.000,,,,
+HYZ1,MYCU,Delivery Station,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Delivery Station,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,Delivery Station,,2025-11-01 00:00:00.000,,,,
+HYE1,ANDR,CSAT,,2025-11-01 00:00:00.000,,,,
+HYZ2,112C,Delivery Station,,2025-11-01 00:00:00.000,,,,
+HYC2,DFST,Amazon Delivery App,,2025-11-01 00:00:00.000,,,,
+HYO1,PTCI,SDS,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Amazon Delivery App,,2025-11-01 00:00:00.000,,,,
+HYE1,ANDR,Safety,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,Engagement & Motivation,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,,,2025-11-01 00:00:00.000,,,,
+HYV1,VAVA,,,2025-11-01 00:00:00.000,,,,
+HYZ2,112C,Fleet,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,New Driver,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Effort & Efficiency,,2025-11-01 00:00:00.000,,,,
+HYO1,RURN,Amazon Delivery App,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Engagement & Motivation,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,Safety,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Effort & Efficiency,,2025-11-01 00:00:00.000,,,,
+HYC2,DFST,,,2025-11-01 00:00:00.000,,,,
+HYO1,RURN,SDS,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,Hands-on Support,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,Hands-on Support,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Delivery Execution,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,Navigation & Route Design,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,Communication,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Hands-on Support,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,CSAT,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,CSAT,,2025-11-01 00:00:00.000,,,,
+HYO1,RURN,,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,Effort & Efficiency,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,Safety,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Safety,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,CSAT,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,Fleet,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Amazon Delivery App,,2025-11-01 00:00:00.000,,,,
+HYO1,PTCI,Effort & Efficiency,,2025-11-01 00:00:00.000,,,,
+HYZ1,MYCU,Effort & Efficiency,,2025-11-01 00:00:00.000,,,,
+HYZ2,112C,,,2025-11-01 00:00:00.000,,,,
+HYC2,DFST,Amazon Communications,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,Engagement & Motivation,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Amazon Delivery App,,2025-11-01 00:00:00.000,,,,
+HYZ1,MYCU,,,2025-11-01 00:00:00.000,,,,
+HYC2,DFST,CSAT,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,Delivery Station,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Amazon Communications,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Delivery Station,,2025-11-01 00:00:00.000,,,,
+HYE1,ANDR,Fleet,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,CSAT,,2025-11-01 00:00:00.000,,,,
+HYZ2,MRLS,Effort & Efficiency,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,Amazon Communications,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,SDS,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,CSAT,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,Navigation & Route Design,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,CSAT,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,CSAT,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,Hands-on Support,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Navigation & Route Design,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Effort & Efficiency,,2025-11-01 00:00:00.000,,,,
+HYZ2,MRLS,Delivery Execution,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,Navigation & Route Design,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,Delivery Station,,2025-11-01 00:00:00.000,,,,
+HYC2,DFST,Fleet,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,Fleet,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Delivery Execution,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Amazon Communications,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,Effort & Efficiency,,2025-11-01 00:00:00.000,,,,
+HYZ1,FLIT,SDS,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Effort & Efficiency,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,Delivery Execution,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,Delivery Station,,2025-11-01 00:00:00.000,,,,
+HYZ2,MRLS,Hands-on Support,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Amazon Delivery App,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,Safety,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,Effort & Efficiency,,2025-11-01 00:00:00.000,,,,
+HYZ1,FLIT,CSAT,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,,,2025-11-01 00:00:00.000,,,,
+HYZ1,MYCU,Communication,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Communication,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,,,2025-11-01 00:00:00.000,,,,
+HYO1,RURN,Safety,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,Amazon Communications,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,Effort & Efficiency,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,Effort & Efficiency,,2025-11-01 00:00:00.000,,,,
+HYZ2,MRLS,CSAT,,2025-11-01 00:00:00.000,,,,
+HYC2,DFST,Communication,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Communication,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Fleet,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,Engagement & Motivation,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,New Driver,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,CSAT,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,SDS,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,SDS,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,Delivery Station,,2025-11-01 00:00:00.000,,,,
+HYC2,DFST,Navigation & Route Design,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,New Driver,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,Fleet,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,Navigation & Route Design,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Amazon Delivery App,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Amazon Communications,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Navigation & Route Design,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,CSAT,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,Fleet,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,Effort & Efficiency,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,Delivery Station,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,SDS,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,Communication,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Effort & Efficiency,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Delivery Station,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,Delivery Execution,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,Communication,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Effort & Efficiency,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,Effort & Efficiency,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Communication,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,Delivery Execution,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,SDS,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,New Driver,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,,,2025-11-01 00:00:00.000,,,,
+HYV1,VAVA,Delivery Station,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,CSAT,,2025-11-01 00:00:00.000,,,,
+HYZ2,MRLS,,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Navigation & Route Design,,2025-10-01 00:00:00.000,,,,
+HYZ2,112C,Engagement & Motivation,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,SDS,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,Engagement & Motivation,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,Engagement & Motivation,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,Amazon Communications,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,Delivery Execution,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,Effort & Efficiency,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,Effort & Efficiency,,2025-11-01 00:00:00.000,,,,
+HYO1,PTCI,Communication,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,Safety,,2025-10-01 00:00:00.000,,,,
+HYZ2,MRLS,New Driver,,2025-11-01 00:00:00.000,,,,
+HYZ2,112C,CSAT,,2025-11-01 00:00:00.000,,,,
+HYO1,PTCI,Safety,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,Delivery Station,,2025-11-01 00:00:00.000,,,,
+HYZ2,MRLS,Delivery Station,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,Hands-on Support,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Delivery Station,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,CSAT,,2025-11-01 00:00:00.000,,,,
+HYZ1,MYCU,Navigation & Route Design,,2025-10-01 00:00:00.000,,,,
+HYO1,PTCI,Delivery Station,,2025-11-01 00:00:00.000,,,,
+HYZ1,FLIT,Safety,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,Fleet,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,Amazon Communications,,2025-10-01 00:00:00.000,,,,
+HYO1,RURN,CSAT,,2025-11-01 00:00:00.000,,,,
+HYV1,VAVA,Amazon Communications,,2025-10-01 00:00:00.000,,,,
+HYC2,DFST,Hands-on Support,,2025-10-01 00:00:00.000,,,,
+HYE1,ANDR,Delivery Execution,,2025-10-01 00:00:00.000,,,,
+HYZ1,FLIT,,,2025-11-01 00:00:00.000,,,,
+HYZ2,112C,Hands-on Support,,2025-10-01 00:00:00.000,,,,
+HYZ1,MYCU,Amazon Delivery App,,2025-10-01 00:00:00.000,,,,
+HYV1,VAVA,,,2025-10-01 00:00:00.000,,,,
