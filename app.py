@@ -139,7 +139,7 @@ def vs_color(val):
 def load_service_time():
     svc = parse_visuals(SVC_CSV)
     rows = []
-    for row in svc.get('763eaee2-6ea5-439c-9ce8-b48fa88260ab',{}).get('rows',[]):
+    for row in svc.get('9dfe57ee-5b38-403c-ba3e-abcf9254a0ee',{}).get('rows',[]):
         if len(row) < 6: continue
         s_dsp,seca,tgt,week,act,cnt = row[0],row[1],row[2],row[3],row[4],row[5]
         stn = s_dsp.split(' - ')[0]
@@ -167,9 +167,9 @@ def load_star_rating():
                          '1-Star %':round(float(row[6])*100,1),'WkDate':week_to_date(week)})
         except: pass
     net = []
-    for row in star.get('20695b89-6a49-45d4-ae5d-eacd773b9faa',{}).get('rows',[]):
+    for row in star.get('17b77810-2a01-456e-8388-92f64b4ecea9',{}).get('rows',[]):
         if len(row) < 2: continue
-        try: net.append({'Week':row[0],'Net Avg':round(float(row[1]),3),'WkDate':week_to_date(row[0])})
+        try: net.append({'Week':row[0],'Net Avg':round(float(row[2]),3),'WkDate':week_to_date(row[0])})
         except: pass
     return pd.DataFrame(rows), pd.DataFrame(net)
 
@@ -177,7 +177,7 @@ def load_star_rating():
 def load_urr():
     urr = parse_visuals(URR_CSV)
     stn_rows = []
-    for row in urr.get('7833e93b-045c-46c2-89d7-2a496100b100',{}).get('rows',[]):
+    for row in urr.get('816734c8-24e3-4078-b44a-63724e94fd52',{}).get('rows',[]):
         if len(row)<5: continue
         stn=row[0]
         if stn not in CANADA_STATIONS: continue
@@ -195,7 +195,7 @@ def load_urr():
         except: pass
     trend.sort(key=lambda r:r['Month'])
     dsp_rows = []
-    for row in urr.get('c46a8d68-dedc-4c4b-b737-2326e94bd79f',{}).get('rows',[]):
+    for row in urr.get('800907bb-a12f-4240-b459-989e74962163',{}).get('rows',[]):
         if len(row)<5: continue
         dsp,stn=row[0],row[1]
         if stn not in CANADA_STATIONS: continue
@@ -209,7 +209,7 @@ def load_urr():
 def load_feedback():
     fb = parse_visuals(FB_CSV)
     comments = []
-    for row in fb.get('73f48661-b4fc-4432-aba9-3190f02a89ae',{}).get('rows',[]):
+    for row in fb.get('e81a3f8d-9100-421c-80a5-edfffdf30e5b',{}).get('rows',[]):
         if len(row)<6: continue
         stn,dsp,svc,_,comment,rating = row[0],row[1],row[2],row[3],row[4],row[5]
         if stn not in CANADA_STATIONS or not comment.strip(): continue
@@ -217,7 +217,7 @@ def load_feedback():
                                'Service':svc,'Stars':int(float(rating)),'Comment':comment})
         except: pass
     summary = []
-    for row in fb.get('6c8ea736-81c5-4ab3-b982-04e6f5cb32a3',{}).get('rows',[]):
+    for row in fb.get('1c1c783c-265a-42bd-8e81-35a4127cbe66',{}).get('rows',[]):
         if len(row)<3: continue
         stn=row[0]
         if stn not in CANADA_STATIONS: continue
