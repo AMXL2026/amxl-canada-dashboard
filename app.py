@@ -167,7 +167,7 @@ def load_star_rating():
                          '1-Star %':round(float(row[6])*100,1),'WkDate':week_to_date(week)})
         except: pass
     net = []
-    for row in star.get('17b77810-2a01-456e-8388-92f64b4ecea9',{}).get('rows',[]):
+    for row in star.get('966cbc88-055e-41ed-921e-5a809ec1ba05',{}).get('rows',[]):
         if len(row) < 2: continue
         try: net.append({'Week':row[0],'Net Avg':round(float(row[2]),3),'WkDate':week_to_date(row[0])})
         except: pass
@@ -341,8 +341,8 @@ if not df_star.empty:
 else: k2.metric("⭐ CA Avg Rating", "—")
 
 if not df_net_f.empty:
-    k3.metric("🌐 Network Avg", f"{df_net_f['Net Avg'].mean():.3f}")
-else: k3.metric("🌐 Network Avg", "—")
+    k3.metric("🍁 CA Network Avg", f"{df_net_f['Net Avg'].mean():.3f}")
+else: k3.metric("🍁 CA Network Avg", "—")
 
 if not df_urr_s.empty:
     urr_ca  = round(df_urr_s['Undeliverable'].sum() / df_urr_s['Deliveries'].sum() * 100, 1) if df_urr_s['Deliveries'].sum() > 0 else 0
