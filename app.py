@@ -344,11 +344,11 @@ if not df_net_f.empty:
     k3.metric("🌐 Network Avg", f"{df_net_f['Net Avg'].mean():.3f}")
 else: k3.metric("🌐 Network Avg", "—")
 
-if not df_urr_f.empty:
-    urr_latest = df_urr_f['URR %'].iloc[-1]
-    urr_red    = int(df_urr_s['URR %'].gt(10).sum()) if not df_urr_s.empty else 0
-    k4.metric("📦 URR Latest", f"{urr_latest:.1f}%", delta=f"{urr_red} stations >10%", delta_color="inverse")
-else: k4.metric("📦 URR Latest", "—")
+if not df_urr_s.empty:
+    urr_ca  = round(df_urr_s['Undeliverable'].sum() / df_urr_s['Deliveries'].sum() * 100, 1) if df_urr_s['Deliveries'].sum() > 0 else 0
+    urr_red = int(df_urr_s['URR %'].gt(10).sum())
+    k4.metric("📦 URR CA", f"{urr_ca:.1f}%", delta=f"{urr_red} stations >10%", delta_color="inverse")
+else: k4.metric("📦 URR CA", "—")
 
 if not df_fb_f.empty:
     k5.metric("💬 Positive FB", f"{(df_fb_f['Stars']>=4).sum()}",
@@ -468,19 +468,11 @@ with tab3:
         else: st.info("No URR data.")
 
     with c2:
-        st.markdown('<div class="section-hdr">Network Monthly Trend</div>', unsafe_allow_html=True)
-        if not df_urr_f.empty:
-            def _urrt(df):
-                s = pd.DataFrame('', index=df.index, columns=df.columns)
-                for i,r in df.iterrows(): s.at[i,'URR %'] = urr_color(r['URR %'])
-                return s
-            st.dataframe(
-                df_urr_f[['Month','URR %','Deliveries','Undeliverable']]
-                .style.apply(_urrt, axis=None).format({'URR %':'{:.1f}%'}),
-                use_container_width=True, hide_index=True
-            )
-            st.area_chart(df_urr_f.set_index('Month')['URR %'], height=160)
-        else: st.info("No URR data in this period. Try Last 6 months or wider.")
+        st.markdown('<div class="section-hdr">URR % — Station Bar Chart</div>', unsafe_allow_html=True)
+        if not df_urr_s.empty:
+            chart_df = df_urr_s.set_index('Station')[['URR %']].sort_values('URR %', ascending=False)
+            st.bar_chart(chart_df, height=220, color="#C00000")
+        else: st.info("No URR data.")
 
     st.divider()
     st.markdown('<div class="section-hdr">By DSP</div>', unsafe_allow_html=True)
