@@ -371,6 +371,8 @@ with tab1:
         st.info("No data in this period. Try a wider rolling window.")
     else:
         disp = df_svc[['Station','City','Metric','Target','Week','Actual','Pkgs']].copy()
+        disp.insert(disp.columns.get_loc('Week')+1, 'Date',
+                    df_svc['WkDate'].apply(lambda d: d.strftime('%b %d, %Y') if pd.notna(d) else ''))
         disp['Delta'] = (disp['Actual'] - disp['Target']).round(2)
 
         def _svc(df):
