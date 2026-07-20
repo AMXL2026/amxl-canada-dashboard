@@ -169,7 +169,7 @@ def load_star_rating():
     net = []
     for row in star.get('966cbc88-055e-41ed-921e-5a809ec1ba05',{}).get('rows',[]):
         if len(row) < 2: continue
-        try: net.append({'Week':row[0],'Net Avg':round(float(row[2]),3),'WkDate':week_to_date(row[0])})
+        try: net.append({'Week':row[0],'Net Avg':round(float(row[2]),3),'Reviews':int(row[1]),'1-Star %':round(float(row[3])*100,1),'WkDate':week_to_date(row[0])})
         except: pass
     return pd.DataFrame(rows), pd.DataFrame(net)
 
@@ -395,27 +395,41 @@ with tab1:
 with tab2:
     col_a, col_b = st.columns([2,1])
     with col_a:
-        st.markdown('<div class="section-hdr">Canada Stations — Weekly</div>', unsafe_allow_html=True)
-        if df_star.empty:
-            st.info("No data in this period.")
-        else:
+        st.markdown('<div class="section-hdr">Canada — Weekly Summary</div>', unsafe_allow_html=True)
+        if not df_star.empty:
             net_map = dict(zip(df_net['Week'], df_net['Net Avg'])) if not df_net.empty else {}
             df_star['Net Avg']    = df_star['Week'].map(net_map)
             df_star['vs Network'] = (df_star['Avg Rating'] - df_star['Net Avg']).round(3)
-
             def _star(df):
                 s = pd.DataFrame('', index=df.index, columns=df.columns)
                 for i,r in df.iterrows():
                     s.at[i,'Avg Rating']  = star_color(r['Avg Rating'])
                     s.at[i,'vs Network']  = vs_color(r.get('vs Network'))
                 return s
-
             st.dataframe(
                 df_star[['Station','City','Week','Reviews','Avg Rating','1-Star %','Net Avg','vs Network']]
                 .style.apply(_star, axis=None)
                 .format({'Avg Rating':'{:.2f}','1-Star %':'{:.1f}%','Net Avg':'{:.3f}','vs Network':'{:+.3f}'}),
                 use_container_width=True, hide_index=True, height=min(400, 36*len(df_star)+38)
             )
+        elif not df_net_f.empty:
+            # Per-station data unavailable — show Canada weekly aggregate from network visual
+            disp_ca = df_net_f[['Week','Net Avg']].copy()
+            disp_ca.columns = ['Week','Canada Avg ★']
+            # add reviews from df_net if available
+            if 'Reviews' in df_net_f.columns:
+                disp_ca['Reviews'] = df_net_f['Reviews'].values
+            def _ca(df):
+                s = pd.DataFrame('', index=df.index, columns=df.columns)
+                for i,r in df.iterrows(): s.at[i,'Canada Avg ★'] = star_color(r['Canada Avg ★'])
+                return s
+            st.dataframe(
+                disp_ca.style.apply(_ca, axis=None).format({'Canada Avg ★':'{:.3f}'}),
+                use_container_width=True, hide_index=True
+            )
+            st.markdown('<div class="note-box">⚠ Station-level star breakdown not available in current data extract — showing Canada network weekly average.</div>', unsafe_allow_html=True)
+        else:
+            st.info("No data in this period.")
 
     with col_b:
         st.markdown('<div class="section-hdr">Network Trend</div>', unsafe_allow_html=True)
