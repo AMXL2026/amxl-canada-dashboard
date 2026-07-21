@@ -362,7 +362,7 @@ st.divider()
 # ══════════════════════════════════════════════════════════════════════════════
 # TABS
 # ══════════════════════════════════════════════════════════════════════════════
-tab1,tab2,tab3,tab4 = st.tabs(["⏱ Service Time","⭐ 5-Star Rating","📦 URR","💬 Customer Feedback"])
+tab1,tab2,tab3,tab4,tab5 = st.tabs(["⏱ Service Time","⭐ 5-Star Rating","📦 URR","💬 Customer Feedback","📈 MoM Service Time"])
 
 # ── Service Time ──────────────────────────────────────────────────────────────
 with tab1:
@@ -548,3 +548,156 @@ with tab4:
         )
     else:
         st.info("No feedback data available.")
+
+# ── MoM Service Time ─────────────────────────────────────────────────────────
+with tab5:
+    st.markdown('<div class="section-hdr">Month-over-Month — ROC & DDU Average Service Time</div>', unsafe_allow_html=True)
+
+    MOM_CSV = DATA_DIR / 'mom_service_time_raw.csv'
+
+    def parse_mom_csv(filepath):
+        """Parse quicksuite multi-visual CSV for MoM service time data."""
+        import csv as _csv
+        try:
+            text = Path(filepath).read_text(encoding='utf-8', errors='replace')
+        except Exception:
+            return pd.DataFrame()
+        rows = []
+        in_data = False
+        headers = None
+        for line in text.splitlines():
+            stripped = line.strip()
+            if stripped.startswith('# visual'):
+                in_data = False
+                headers = None
+                continue
+            if not stripped:
+                continue
+            parsed = list(_csv.reader([stripped]))[0]
+            if headers is None:
+                headers = parsed
+                in_data = True
+                continue
+            if in_data and len(parsed) >= max(3, len(headers)):
+                row = dict(zip(headers, parsed))
+                rows.append(row)
+        return pd.DataFrame(rows) if rows else pd.DataFrame()
+
+    if not MOM_CSV.exists():
+        st.info("MoM service time data not yet pulled. Run refresh to populate.")
+        st.markdown("**Source:** Star Rating dashboard — contains per-delivery service time history (Apr–present)")
+    else:
+        try:
+            df_mom_raw = parse_mom_csv(MOM_CSV)
+
+            if df_mom_raw.empty:
+                st.warning("MoM CSV parsed but returned no rows.")
+            else:
+                # Build per-delivery records
+                # group_0=site, group_2=date, group_10=svc_code (D:R/U), group_17=service_time_sec
+                df_mom = df_mom_raw[['group_0','group_2','group_10','group_11','group_17']].copy()
+                df_mom.columns = ['Site','Date','SvcCode','SvcType','SvcTimeSec']
+                df_mom['Site']       = df_mom['Site'].str.strip()
+                df_mom['Date']       = pd.to_datetime(df_mom['Date'], errors='coerce')
+                df_mom['SvcTimeSec'] = pd.to_numeric(df_mom['SvcTimeSec'], errors='coerce')
+                df_mom['SvcTimeMin'] = df_mom['SvcTimeSec'] / 60
+                df_mom['ServiceType'] = df_mom['SvcCode'].map({'D:R': 'ROC', 'U': 'DDU'}).fillna(df_mom['SvcType'])
+                df_mom['Month']      = df_mom['Date'].dt.to_period('M').astype(str)
+                df_mom = df_mom.dropna(subset=['Date','SvcTimeSec','Site'])
+                df_mom = df_mom[df_mom['Site'].isin(CANADA_STATIONS)]
+
+                # Monthly averages per site per service type
+                df_agg = (df_mom.groupby(['Site','Month','ServiceType'])
+                          .agg(AvgMin=('SvcTimeMin','mean'), Count=('SvcTimeMin','count'))
+                          .reset_index())
+                df_agg['AvgMin'] = df_agg['AvgMin'].round(2)
+                df_agg['Threshold'] = df_agg['ServiceType'].map({'ROC': 7, 'DDU': 10})
+                df_agg['Status'] = df_agg.apply(
+                    lambda r: '🟢' if r['AvgMin'] <= r['Threshold'] else '🔴', axis=1)
+
+                # Date range info
+                months = sorted(df_agg['Month'].unique())
+                st.caption(f"Period: {months[0]} → {months[-1]}  |  {len(months)} months  |  {len(df_mom):,} rated deliveries")
+
+                # Filter controls
+                col_f1, col_f2 = st.columns(2)
+                with col_f1:
+                    svc_filter = st.radio("Service Type", ['Both','ROC','DDU'], horizontal=True, key='mom_svc')
+                with col_f2:
+                    site_filter = st.multiselect("Sites", CANADA_STATIONS, default=CANADA_STATIONS, key='mom_sites')
+
+                df_plot = df_agg[df_agg['Site'].isin(site_filter)]
+                if svc_filter != 'Both':
+                    df_plot = df_plot[df_plot['ServiceType'] == svc_filter]
+
+                if df_plot.empty:
+                    st.info("No data for selected filters.")
+                else:
+                    import plotly.express as px
+                    import plotly.graph_objects as go
+
+                    # ── Line chart per service type ───────────────────────────
+                    for svc_type, threshold in [('ROC', 7), ('DDU', 10)]:
+                        if svc_filter != 'Both' and svc_filter != svc_type:
+                            continue
+                        df_svc_plot = df_plot[df_plot['ServiceType'] == svc_type]
+                        if df_svc_plot.empty:
+                            continue
+
+                        fig = px.line(
+                            df_svc_plot.sort_values(['Site','Month']),
+                            x='Month', y='AvgMin', color='Site',
+                            markers=True,
+                            title=f'{svc_type} — Monthly Avg Service Time (min) | Threshold: {threshold} min',
+                            labels={'AvgMin': 'Avg Service Time (min)', 'Month': 'Month'},
+                        )
+                        fig.add_hline(
+                            y=threshold, line_dash='dash', line_color='#ff4b4b',
+                            annotation_text=f'Threshold {threshold} min',
+                            annotation_position='top right'
+                        )
+                        fig.update_layout(
+                            plot_bgcolor='#0e1117', paper_bgcolor='#1e1e2e',
+                            font_color='#fafafa', height=380,
+                            xaxis=dict(showgrid=False),
+                            yaxis=dict(showgrid=True, gridcolor='#333', range=[0, threshold * 1.5]),
+                            legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1)
+                        )
+                        st.plotly_chart(fig, use_container_width=True)
+
+                    # ── Summary heatmap table ─────────────────────────────────
+                    st.markdown("---")
+                    st.markdown("**Monthly Averages — All Sites**")
+
+                    for svc_type, threshold, color_over in [('ROC', 7, '#ff4b4b'), ('DDU', 10, '#ff4b4b')]:
+                        if svc_filter != 'Both' and svc_filter != svc_type:
+                            continue
+                        df_tbl = df_plot[df_plot['ServiceType'] == svc_type].copy()
+                        if df_tbl.empty:
+                            continue
+
+                        pivot = df_tbl.pivot_table(
+                            index='Site', columns='Month', values='AvgMin', aggfunc='mean'
+                        ).round(2).reindex(index=[s for s in CANADA_STATIONS if s in site_filter])
+
+                        st.markdown(f"**{svc_type}** (threshold {threshold} min)")
+
+                        def color_cell(val):
+                            if pd.isna(val):
+                                return 'background-color: #222; color: #555'
+                            elif val > threshold:
+                                return 'background-color: #ff4b4b; color: white; font-weight:bold'
+                            elif val > threshold * 0.9:
+                                return 'background-color: #ffa500; color: black'
+                            else:
+                                return 'background-color: #21c55d22; color: #21c55d'
+
+                        styled = pivot.style.map(color_cell).format('{:.2f}', na_rep='—')
+                        st.dataframe(styled, use_container_width=True)
+                        st.markdown("")
+
+        except Exception as e:
+            import traceback
+            st.error(f"MoM tab error: {e}")
+            with st.expander("Details"):
+                st.code(traceback.format_exc())
