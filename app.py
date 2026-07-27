@@ -236,9 +236,9 @@ def load_feedback():
                                      'Stars':int(float(row.get('group_12',0))),'Comment':comment})
                 except: pass
         except: pass
-    # Fallback: NFPR visual (no date)
+    # Always load NFPR for summary; also fallback for comments
+    fb = parse_visuals(FB_CSV)
     if not comments:
-        fb = parse_visuals(FB_CSV)
         for row in fb.get('e81a3f8d-9100-421c-80a5-edfffdf30e5b',{}).get('rows',[]):
             if len(row)<6: continue
             stn,dsp,svc,_,comment,rating = row[0],row[1],row[2],row[3],row[4],row[5]
