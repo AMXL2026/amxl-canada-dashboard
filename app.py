@@ -26,6 +26,7 @@ SVC_CSV  = DATA_DIR / 'service_time_station_weekly.csv'
 STAR_CSV = DATA_DIR / 'star_rating_weekly.csv'
 URR_CSV  = DATA_DIR / 'iaq_urr_raw.csv'
 FB_CSV   = DATA_DIR / 'star_nfpr_raw.csv'
+MOM_CSV  = DATA_DIR / 'mom_service_time_raw.csv'
 
 # ── Custom CSS ─────────────────────────────────────────────────────────────────
 st.markdown("""
@@ -207,15 +208,44 @@ def load_urr():
 
 @st.cache_data(show_spinner=False)
 def load_feedback():
-    fb = parse_visuals(FB_CSV)
+    import csv as _csv
     comments = []
-    for row in fb.get('e81a3f8d-9100-421c-80a5-edfffdf30e5b',{}).get('rows',[]):
-        if len(row)<6: continue
-        stn,dsp,svc,_,comment,rating = row[0],row[1],row[2],row[3],row[4],row[5]
-        if stn not in CANADA_STATIONS or not comment.strip(): continue
-        try: comments.append({'Station':stn,'City':STATION_CITY[stn],'DSP':dsp,
-                               'Service':svc,'Stars':int(float(rating)),'Comment':comment})
+    # Primary: dated comments from mom CSV (group_2=date, group_13=comment)
+    if MOM_CSV.exists():
+        try:
+            text = MOM_CSV.read_text(encoding='utf-8', errors='replace')
+            headers = None
+            for line in text.splitlines():
+                stripped = line.strip()
+                if stripped.startswith('# visual') or not stripped:
+                    headers = None; continue
+                parsed = list(_csv.reader([stripped]))[0]
+                if headers is None:
+                    headers = parsed; continue
+                if len(parsed) < len(headers): continue
+                row = dict(zip(headers, parsed))
+                stn = row.get('group_0','').strip()
+                if stn not in CANADA_STATIONS: continue
+                comment = row.get('group_13','').strip()
+                if not comment: continue
+                try:
+                    date_str = str(row.get('group_2',''))[:10]
+                    comments.append({'Date':date_str,'Station':stn,'City':STATION_CITY.get(stn,''),
+                                     'DSP':row.get('group_1',''),
+                                     'Service':row.get('group_11',row.get('group_10','')),
+                                     'Stars':int(float(row.get('group_12',0))),'Comment':comment})
+                except: pass
         except: pass
+    # Fallback: NFPR visual (no date)
+    if not comments:
+        fb = parse_visuals(FB_CSV)
+        for row in fb.get('e81a3f8d-9100-421c-80a5-edfffdf30e5b',{}).get('rows',[]):
+            if len(row)<6: continue
+            stn,dsp,svc,_,comment,rating = row[0],row[1],row[2],row[3],row[4],row[5]
+            if stn not in CANADA_STATIONS or not comment.strip(): continue
+            try: comments.append({'Date':'','Station':stn,'City':STATION_CITY[stn],'DSP':dsp,
+                                   'Service':svc,'Stars':int(float(rating)),'Comment':comment})
+            except: pass
     summary = []
     for row in fb.get('1c1c783c-265a-42bd-8e81-35a4127cbe66',{}).get('rows',[]):
         if len(row)<3: continue
@@ -462,7 +492,7 @@ with tab2:
             return s
         st.caption(f"{len(d)} comment(s)")
         st.dataframe(
-            d[["Station","City","DSP","Service","Stars","Comment"]].style.apply(_fbc, axis=None),
+            d[[c for c in ["Date","Station","City","DSP","Service","Stars","Comment"] if c in d.columns]].style.apply(_fbc, axis=None),
             use_container_width=True, hide_index=True,
             column_config={"Comment": st.column_config.TextColumn("Customer Comment", width="large")}
         )
@@ -542,7 +572,7 @@ with tab4:
             return s
 
         st.dataframe(
-            d[['Station','City','DSP','Service','Stars','Comment']].style.apply(_fb, axis=None),
+            d[[c for c in ['Date','Station','City','DSP','Service','Stars','Comment'] if c in d.columns]].style.apply(_fb, axis=None),
             use_container_width=True, hide_index=True,
             column_config={"Comment": st.column_config.TextColumn("Customer Comment", width="large")}
         )
