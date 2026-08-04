@@ -83,7 +83,8 @@ def parse_visuals(fp):
 def week_to_date(label):
     try:
         yr, wk = int(str(label)[:4]), int(str(label)[5:])
-        return datetime.date.fromisocalendar(yr, wk, 1)
+        # Weeks run Sun–Sat: ISO Monday minus 1 day = Sunday start
+        return datetime.date.fromisocalendar(yr, wk, 1) - datetime.timedelta(days=1)
     except: return None
 
 def month_to_date(label):
@@ -93,9 +94,11 @@ def month_to_date(label):
 def rolling_cutoffs(period, c_start=None, c_end=None):
     today = datetime.date.today()
     if period == "Last week":
-        _dow = today.weekday()
-        _lw_mon = today - datetime.timedelta(days=_dow + 7)
-        return _lw_mon, _lw_mon + datetime.timedelta(days=6)
+        # Weeks run Sun–Sat; weekday(): Mon=0 … Sun=6
+        _days_since_sun = (today.weekday() + 1) % 7  # Sun=0, Mon=1, Tue=2 …
+        _this_sun = today - datetime.timedelta(days=_days_since_sun)
+        _last_sun = _this_sun - datetime.timedelta(days=7)
+        return _last_sun, _last_sun + datetime.timedelta(days=6)
     if period == "Last 4 weeks":   return today - datetime.timedelta(weeks=4),   today
     if period == "Last 8 weeks":   return today - datetime.timedelta(weeks=8),   today
     if period == "Last 3 months":  return today - datetime.timedelta(days=91),   today
