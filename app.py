@@ -92,7 +92,10 @@ def month_to_date(label):
 
 def rolling_cutoffs(period, c_start=None, c_end=None):
     today = datetime.date.today()
-    if period == "Last week":      return today - datetime.timedelta(weeks=1),   today
+    if period == "Last week":
+        _dow = today.weekday()
+        _lw_mon = today - datetime.timedelta(days=_dow + 7)
+        return _lw_mon, _lw_mon + datetime.timedelta(days=6)
     if period == "Last 4 weeks":   return today - datetime.timedelta(weeks=4),   today
     if period == "Last 8 weeks":   return today - datetime.timedelta(weeks=8),   today
     if period == "Last 3 months":  return today - datetime.timedelta(days=91),   today
