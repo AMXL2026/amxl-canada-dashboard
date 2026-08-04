@@ -92,6 +92,7 @@ def month_to_date(label):
 
 def rolling_cutoffs(period, c_start=None, c_end=None):
     today = datetime.date.today()
+    if period == "Last week":      return today - datetime.timedelta(weeks=1),   today
     if period == "Last 4 weeks":   return today - datetime.timedelta(weeks=4),   today
     if period == "Last 8 weeks":   return today - datetime.timedelta(weeks=8),   today
     if period == "Last 3 months":  return today - datetime.timedelta(days=91),   today
@@ -274,7 +275,7 @@ with st.sidebar:
     st.divider()
 
     period = st.selectbox("📅 Rolling Period", [
-        "Last 4 weeks","Last 8 weeks","Last 3 months",
+        "Last week","Last 4 weeks","Last 8 weeks","Last 3 months",
         "Last 6 months","Last 12 months","Custom range"
     ], index=0)
 
